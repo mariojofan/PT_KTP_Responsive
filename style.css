@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  min-height: 10000px;
+}
+
+.jumbotron {
+  background-image: url("assets/bgHeader.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.titleHero1 {
+  margin-top: 30vh;
+}
+.titleHero2 {
+  font-size: 40px;
+}
+.custom-shape-divider-top-1625208143 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1625208143 svg {
+  position: relative;
+  display: block;
+  width: calc(113% + 1.3px);
+  height: 93px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1625208143 .shape-fill {
+  fill: #2770be;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1625208143 svg {
+    width: calc(142% + 1.3px);
+    height: 107px;
+  }
+}
