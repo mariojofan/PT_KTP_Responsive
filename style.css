@@ -7,6 +7,7 @@ html {
   min-height: 5000px;
 }
 
+/* Hero */
 .jumbotron {
   background-image: url("assets/bgHeader.jpg");
   background-size: cover;
@@ -20,7 +21,7 @@ html {
   color: #010d57;
 }
 .waves1 {
-  margin-top: -30vh;
+  margin-top: -35vh;
   background-image: cover;
 }
 .bg {
@@ -29,6 +30,17 @@ html {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+/* End Hero */
+
+/* Footer */
+.container-fluid .bg-ceruleanBlue {
+  height: 100px;
+}
+/* End Footer */
+
+
+
+
 @media (min-width: 576px) {
 }
 
@@ -71,13 +83,19 @@ html {
 }
 
 /* Background Color */
-.bg-Mariner {
-  background-color: #2770BE;
+.bg-ceruleanBlue {
+  background-color: #2770be;
 }
-
+.bg-prussianBlue {
+  background-color: #010d57;
+}
 /* Font Color */
-.stratos {
+.prussianBlue
+{
   color: #010d57;
+}
+.ceruleanBlue {
+  color: #2770BE;
 }
 
 /* Margin Top */
