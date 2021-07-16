@@ -4,7 +4,6 @@
 }
 html {
   scroll-behavior: smooth;
-  min-height: 5000px;
 }
 
 /* Hero */
@@ -42,6 +41,35 @@ html {
 
 
 @media (min-width: 576px) {
+  .jumbotron {
+    background-image: url("assets/bgHeader.jpg");
+    background-size: cover;
+    position: static;
+    height: 85vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .who {
+    margin-top: -10vh;
+  }
+  .title {
+    margin-top: 10px;
+  }
+  
+  /* .textWho {
+    font-size: 18px;
+  }
+  .textWhat {
+    font-size: 18px;
+  } */
+  
 }
 
 @media (max-width: 768px) {
@@ -52,6 +80,25 @@ html {
 }
 
 @media (min-width: 992px) {
+  .jumbotron {
+    background-image: url("assets/bgHeader.jpg");
+    background-size: cover;
+    position: static;
+    height: 120vh;
+  }
+  .waves1 {
+  
+  }
+  .titleHero1 {
+    font-size: 50px;
+    margin-top: 50vh;
+  }
+  .titleHero2 {
+    font-size: 30px;
+  }
+  .textWho {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -108,4 +155,5 @@ html {
 .mt-17 {
   margin-top: 17em;
 }
+
 
