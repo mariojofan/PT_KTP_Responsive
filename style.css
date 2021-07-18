@@ -11,24 +11,37 @@ html {
   background-image: url("assets/bgHeader.jpg");
   background-size: cover;
   position: static;
-  height: 120vh;
+  height: 60vh;
 }
 .titleHero1 {
   margin-top: 30vh;
+  font-size: 20px;
+}
+.titleHero2 {
+  font-size: 15px;
+}
+.who {
+  font-size: 18px;
+}
+.textWho {
+  font-size: 14px;
 }
 .what {
   color: #010d57;
 }
 .waves1 {
-  margin-top: -35vh;
+  margin-top: -15vh;
   background-image: cover;
+  width: 100%;
 }
 .bg {
   background-color: #2770be;
-  height: 50vh;
+  height: 30vh;
+  margin-top: -3vh;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+.
 /* End Hero */
 
 /* Footer */
@@ -62,6 +75,15 @@ html {
   .title {
     margin-top: 10px;
   }
+  .waves1 {
+    margin-top: -35vh;
+    background-image: cover;
+  }
+  .bg {
+    height: 50vh;
+  }
+  
+ 
   
   /* .textWho {
     font-size: 18px;
@@ -85,9 +107,6 @@ html {
     background-size: cover;
     position: static;
     height: 120vh;
-  }
-  .waves1 {
-  
   }
   .titleHero1 {
     font-size: 50px;
