@@ -27,8 +27,22 @@ html {
   font-size: 14px;
 }
 .what {
+  font-size: 18px;
   color: #010d57;
 }
+.textWhat {
+  font-size: 14px;
+}
+.text {
+  font-size: 12px;
+}
+.our {
+  font-size: 18px;
+}
+.title {
+  font-size: 14px;
+}
+
 .waves1 {
   margin-top: -15vh;
   background-image: cover;
@@ -81,22 +95,20 @@ html {
   .bg {
     height: 50vh;
   }
-  
- 
-  
-  /* .textWho {
-    font-size: 18px;
+  .mt-sm-10 {
+    margin-top: 10em;
   }
-  .textWhat {
-    font-size: 18px;
-  } */
-  
+  .mt-sm-17 {
+    margin-top: 17em;
+  }
 }
 
 @media (max-width: 768px) {
-  .custom-shape-divider-top-1625208143 svg {
-    width: calc(142% + 1.3px);
-    height: 107px;
+  .mt-sm-10 {
+    margin-top: 10em;
+  }
+  .mt-sm-17 {
+    margin-top: 17em;
   }
 }
 
@@ -117,12 +129,30 @@ html {
   .textWho {
     font-size: 24px;
   }
+  .mt-sm-10 {
+    margin-top: 10em;
+  }
+  .mt-sm-17 {
+    margin-top: 17em;
+  }
 }
 
 @media (min-width: 1200px) {
+  .mt-sm-10 {
+    margin-top: 10em;
+  }
+  .mt-sm-17 {
+    margin-top: 17em;
+  }
 }
 
 @media (min-width: 1400px) {
+  .mt-sm-10 {
+    margin-top: 10em;
+  }
+  .mt-sm-17 {
+    margin-top: 17em;
+  }
 }
 
 /** Utilities **/
@@ -167,11 +197,6 @@ html {
 .mt-9 {
   margin-top: 9rem;
 }
-.mt-10 {
-  margin-top: 10em;
-}
-.mt-17 {
-  margin-top: 17em;
-}
+
 
 
