@@ -42,12 +42,12 @@ html {
 .title {
   font-size: 14px;
 }
-
 .waves1 {
   margin-top: -15vh;
   background-image: cover;
   width: 100%;
 }
+
 .bg {
   background-color: #2770be;
   height: 30vh;
@@ -83,10 +83,25 @@ html {
     font-size: 18px;
   }
   .who {
+    font-size: larger;
     margin-top: -10vh;
+    padding: 2em 0 0 0 ;
+  }
+  .what {
+    font-size: x-large;
+  }
+  .our {
+    font-size: x-large;
+  }
+  .contact {
+    font-size: x-large;
   }
   .title {
+    font-size: small;
     margin-top: 10px;
+  }
+  .text {
+    font-size: small;
   }
   .waves1 {
     margin-top: -35vh;
@@ -126,8 +141,20 @@ html {
   .titleHero2 {
     font-size: 30px;
   }
+  .who {
+    font-size: xx-large;
+  }
   .textWho {
     font-size: 24px;
+  }
+  .what {
+    font-size: xx-large;
+  }
+  .textWhat {
+    font-size: 24px;
+  }
+  .our {
+    font-size: xx-large;
   }
   .mt-sm-10 {
     margin-top: 10em;
@@ -197,6 +224,7 @@ html {
 .mt-9 {
   margin-top: 9rem;
 }
+
 
 
 
