@@ -22,7 +22,7 @@ html {
 .waves1 {
   margin-top: -15vh;
 }
-.who, .what {
+.who, .what, .our {
   font-size: larger;
 }
 .text {
@@ -165,6 +165,6 @@ html {
 
   /* Margin */
 /* Top */
-.mt-15 {
+.mt-160 {
   margin-top:  10rem;
 }
