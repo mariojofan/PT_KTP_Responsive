@@ -4,90 +4,164 @@
 }
 html {
   scroll-behavior: smooth;
-  min-height: 5000px;
 }
 
 .jumbotron {
   background-image: url("assets/bgHeader.jpg");
   background-size: cover;
   position: static;
-  height: 120vh;
+  height: 60vh;
 }
 .titleHero1 {
   margin-top: 30vh;
+  font-size: larger;
 }
-.what {
-  color: #010d57;
+.titleHero2 {
+  font-size: small;
 }
 .waves1 {
-  margin-top: -30vh;
-  background-image: cover;
+  margin-top: -15vh;
+}
+.who, .what {
+  font-size: larger;
+}
+.text {
+  font-size: small;
 }
 .bg {
   background-color: #2770be;
-  height: 50vh;
+  height: 35vh;
+  margin-top: -3vh;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-@media (min-width: 576px) {
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .jumbotron {
+      background-image: url("assets/bgHeader.jpg");
+      background-size: cover;
+      position: static;
+      height: 75vh;
+    }
+    .titleHero1 {
+        font-size: x-large;
+    }
+    .titleHero2 {
+        font-size: large;
+    }
+    .waves1 {
+        margin-top: -20vh;
+    }
 }
 
-@media (max-width: 768px) {
-  .custom-shape-divider-top-1625208143 svg {
-    width: calc(142% + 1.3px);
-    height: 107px;
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .jumbotron {
+      background-image: url("assets/bgHeader.jpg");
+      background-size: cover;
+      position: static;
+      height: 80vh;
+  }
+  .titleHero1{
+      font-size: xx-large;
+  }
+  .titleHero2 {
+      font-size: larger;
+  }
+  .waves1 {
+      margin-top: -25vh;
+  }
+  .who, .what {
+      font-size: x-large;
+  }
+  .text {
+      font-size: medium;
   }
 }
 
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .jumbotron {
+    background-image: url("assets/bgHeader.jpg");
+    background-size: cover;
+    position: static;
+    height: 100vh;
+  }
+  .titleHero1 {
+      font-size: xx-large;
+  }
+  .titleHero2 {
+      font-size: x-large;
+  }
+  .waves1 {
+      margin-top: -30vh;
+  }
+  .bg {
+      height: 45vh;
+  }
+  .who, .what {
+      font-size: xx-large;
+  }
+  .text {
+      font-size: larger;
+  }
+  
 }
 
-@media (min-width: 1200px) {
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .jumbotron {
+      background-image: url("assets/bgHeader.jpg");
+      background-size: cover;
+      position: static;
+      height: 100vh;
+  }
+  .titleHero1 {
+      font-size: 3.125rem;
+  }
+  .titleHero2 {
+      font-size: xx-large;
+  }
+  .who, .what {
+      font-size: xx-large;
+  }
+  .text {
+      font-size: larger;
+  }
 }
 
-@media (min-width: 1400px) {
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .jumbotron {
+      background-image: url("assets/bgHeader.jpg");
+      background-size: cover;
+      position: static;
+      height: 100vh;
+  }
+  .titleHero1 {
+      font-size: 3.125rem;
+  }
+  .titleHero2 {
+      font-size: xx-large;
+  }
+  .who, .what {
+      font-size: 2.5rem;
+  }
+  .text {
+      font-size: 2rem;
+  }
 }
 
-/** Utilities **/
 
-/* Font Size */
-.fs-12 {
-  font-size: 0.75rem;
-}
-.fs-14 {
-  font-size: 0.88rem;
-}
-.fs-18 {
-  font-size: 1.13rem;
-}
-.fs-20 {
-  font-size: 1.25rem;
-}
-.fs-24 {
-  font-size: 1.5rem;
-}
-.fs-40 {
-  font-size: 2.5rem;
-}
+      /* Utilities */
 
-/* Background Color */
-.bg-Mariner {
-  background-color: #2770BE;
-}
-
-/* Font Color */
-.stratos {
-  color: #010d57;
-}
-
-/* Margin Top */
-.mt-9 {
-  margin-top: 9rem;
-}
-.mt-10 {
-  margin-top: 10em;
-}
-.mt-17 {
-  margin-top: 17em;
-}
-
+  /* Margin */
+/* Top */
