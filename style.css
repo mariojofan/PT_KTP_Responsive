@@ -22,7 +22,7 @@ html {
 .waves1 {
   margin-top: -15vh;
 }
-.who, .what, .our {
+.who, .what, .our, .product {
   font-size: larger;
 }
 .text {
@@ -167,4 +167,22 @@ html {
 /* Top */
 .mt-160 {
   margin-top:  10rem;
+}
+
+    /* Color */
+/* Backgorund Color */
+.bg-ceruleanBlue {
+  background-color: #2770be;
+}
+.bg-prussianBlue {
+  background-color: #010d57;
+}
+
+/* Font Color */
+.prussianBlue
+{
+  color: #010d57;
+}
+.ceruleanBlue {
+  color: #2770BE;
 }
