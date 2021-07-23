@@ -34,9 +34,10 @@ html {
   margin-top: -3vh;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
+} 
+.bg-ceruleanBlue {
+  height: 35vh;
 }
-
-
 
 
 
@@ -57,6 +58,11 @@ html {
     .waves1 {
         margin-top: -20vh;
     }
+    .bg-ceruleanBlue {
+      margin-top: -1vh;
+      height: 60vh;
+    }
+    
 }
 
 
@@ -79,7 +85,7 @@ html {
   .waves1 {
       margin-top: -25vh;
   }
-  .who, .what {
+  .who, .what, .our, .product {
       font-size: x-large;
   }
   .text {
@@ -107,11 +113,14 @@ html {
   .bg {
       height: 45vh;
   }
-  .who, .what {
+  .who, .what, .our, .product {
       font-size: xx-large;
   }
   .text {
       font-size: larger;
+  }
+  .bg-ceruleanBlue {
+    margin-top: -1vh;
   }
   
 }
@@ -130,7 +139,7 @@ html {
   .titleHero2 {
       font-size: xx-large;
   }
-  .who, .what {
+  .who, .what, .our, .product {
       font-size: xx-large;
   }
   .text {
@@ -152,7 +161,7 @@ html {
   .titleHero2 {
       font-size: xx-large;
   }
-  .who, .what {
+  .who, .what, .our, .product {
       font-size: 2.5rem;
   }
   .text {
