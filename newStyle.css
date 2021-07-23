@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .jumbotron {
+    background-image: url("assets/bgHeader.jpg");
+    background-size: cover;
+    position: static;
+    height: 60vh;
+  }
+  .titleHero1 {
+    margin-top: 30vh;
+    font-size: larger;
+  }
+  .titleHero2 {
+    font-size: small;
+  }
+  .waves1 {
+    margin-top: -15vh;
+  }
+  .who, .what, .our, .product {
+    font-size: larger;
+  }
+  .text {
+    font-size: small;
+  }
+  .bg {
+    background-color: #2770be;
+    height: 35vh;
+    margin-top: -3vh;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  } 
+  .bg-ceruleanBlue {
+    height: 35vh;
+  }
+  
+  
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+    .jumbotron {
+        background-image: url("assets/bgHeader.jpg");
+        background-size: cover;
+        position: static;
+        height: 75vh;
+      }
+      .titleHero1 {
+          font-size: x-large;
+      }
+      .titleHero2 {
+          font-size: large;
+      }
+      .waves1 {
+          margin-top: -20vh;
+      }
+      .bg-ceruleanBlue {
+        margin-top: -1vh;
+        height: 60vh;
+      }
+      
+  }
+  
+  
+  
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .jumbotron {
+        background-image: url("assets/bgHeader.jpg");
+        background-size: cover;
+        position: static;
+        height: 80vh;
+    }
+    .titleHero1{
+        font-size: xx-large;
+    }
+    .titleHero2 {
+        font-size: larger;
+    }
+    .waves1 {
+        margin-top: -25vh;
+    }
+    .who, .what, .our, .product {
+        font-size: x-large;
+    }
+    .text {
+        font-size: medium;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .jumbotron {
+      background-image: url("assets/bgHeader.jpg");
+      background-size: cover;
+      position: static;
+      height: 100vh;
+    }
+    .titleHero1 {
+        font-size: xx-large;
+    }
+    .titleHero2 {
+        font-size: x-large;
+    }
+    .waves1 {
+        margin-top: -30vh;
+    }
+    .bg {
+        height: 45vh;
+    }
+    .who, .what, .our, .product {
+        font-size: xx-large;
+    }
+    .text {
+        font-size: larger;
+    }
+    .bg-ceruleanBlue {
+      margin-top: -1vh;
+    }
+    
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .jumbotron {
+        background-image: url("assets/bgHeader.jpg");
+        background-size: cover;
+        position: static;
+        height: 100vh;
+    }
+    .titleHero1 {
+        font-size: 3.125rem;
+    }
+    .titleHero2 {
+        font-size: xx-large;
+    }
+    .who, .what, .our, .product {
+        font-size: xx-large;
+    }
+    .text {
+        font-size: larger;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) { 
+    .jumbotron {
+        background-image: url("assets/bgHeader.jpg");
+        background-size: cover;
+        position: static;
+        height: 100vh;
+    }
+    .titleHero1 {
+        font-size: 3.125rem;
+    }
+    .titleHero2 {
+        font-size: xx-large;
+    }
+    .who, .what, .our, .product {
+        font-size: 2.5rem;
+    }
+    .text {
+        font-size: 2rem;
+    }
+  }
+  
+  
+        /* Utilities */
+  
+    /* Margin */
+  /* Top */
+  .mt-160 {
+    margin-top:  10rem;
+  }
+  
+      /* Color */
+  /* Backgorund Color */
+  .bg-ceruleanBlue {
+    background-color: #2770be;
+  }
+  .bg-prussianBlue {
+    background-color: #010d57;
+  }
+  
+  /* Font Color */
+  .prussianBlue
+  {
+    color: #010d57;
+  }
+  .ceruleanBlue {
+    color: #2770BE;
+  }
